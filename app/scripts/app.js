@@ -19,7 +19,10 @@ angular
     'pascalprecht.translate',// angular-translate
     'tmh.dynamicLocale'// angular-dynamic-locale
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $translateProvider) {
+
+    $translateProvider.useMissingTranslationHandlerLog();
+
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
