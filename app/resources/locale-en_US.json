@@ -1,4 +1,12 @@
 {
-  "views.main.Splendid!": "Splendid!",
+  "app.navigation.brand": "Internationalization Example",
+  "app.navigation.home": "Home",
+  "app.navigation.about": "About",
+  "app.navigation.contact": "Contact",
+
+  "views.main.hello": "'Allo, 'Allo!",
+  "views.main.welcome": "Always a pleasure scaffolding your apps.",
+  "views.main.button": "Splendid!",
+
   "directives.language-select.Language": "Language"
 }

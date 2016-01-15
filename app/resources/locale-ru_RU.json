@@ -1,4 +1,13 @@
 {
-  "views.main.Splendid!": "Отлично!",
+  "app.navigation.brand": "Интернационализация Пример",
+  "app.navigation.home": "Главная",
+  "app.navigation.about": "около",
+  "app.navigation.contact": "контакт",
+
+  "views.main.hello": "Привет привет!",
+  "views.main.welcome": "Всегда приятно леса ваши приложения.",
+  "views.main.button": "Отлично!",
+
   "directives.language-select.Language": "Язык"
 }
+
