@@ -23,6 +23,13 @@ angular
 
     $translateProvider.useMissingTranslationHandlerLog();
 
+    $translateProvider.useStaticFilesLoader({
+      prefix: 'resources/locale-',// path to translations files
+      suffix: '.json'// suffix, currently- extension of the translations
+    });
+    $translateProvider.preferredLanguage('en_US');// is applied on first load
+    $translateProvider.useLocalStorage();// saves selected language to localStorage
+
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
