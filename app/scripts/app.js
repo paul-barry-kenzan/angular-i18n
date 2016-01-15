@@ -19,7 +19,7 @@ angular
     'pascalprecht.translate',// angular-translate
     'tmh.dynamicLocale'// angular-dynamic-locale
   ])
-  .config(function ($routeProvider, $translateProvider) {
+  .config(function ($routeProvider, $translateProvider, tmhDynamicLocaleProvider) {
 
     $translateProvider.useMissingTranslationHandlerLog();
 
@@ -29,6 +29,8 @@ angular
     });
     $translateProvider.preferredLanguage('en_US');// is applied on first load
     $translateProvider.useLocalStorage();// saves selected language to localStorage
+
+    tmhDynamicLocaleProvider.localeLocationPattern('bower_components/angular-i18n/angular-locale_{{locale}}.js');
 
     $routeProvider
       .when('/', {
