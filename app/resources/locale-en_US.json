@@ -7,6 +7,7 @@
   "views.main.hello": "'Allo, 'Allo!",
   "views.main.welcome": "Always a pleasure scaffolding your apps.",
   "views.main.button": "Splendid!",
+  "views.main.yeomanfilename": "yeoman.png",
 
   "directives.language-select.Language": "Language"
 }

@@ -7,6 +7,7 @@
   "views.main.hello": "Привет привет!",
   "views.main.welcome": "Всегда приятно леса ваши приложения.",
   "views.main.button": "Отлично!",
+  "views.main.yeomanfilename": "йомен.png",
 
   "directives.language-select.Language": "Язык"
 }
