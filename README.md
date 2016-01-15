@@ -1,6 +1,6 @@
 # AngularJS i18n &amp; l10n
 
-This example is based on a[Scotch.io tutorial](https://scotch.io/tutorials/internationalization-of-angularjs-applications)
+This example is based on a [Scotch.io tutorial](https://scotch.io/tutorials/internationalization-of-angularjs-applications)
 
 ## Build &amp; development
 
